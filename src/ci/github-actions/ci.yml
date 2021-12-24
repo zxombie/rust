@@ -314,6 +314,9 @@ jobs:
           - name: armhf-gnu
             <<: *job-linux-xl
 
+          - name: dist-aarch64-freebsd
+            <<: *job-linux-xl
+
           - name: dist-aarch64-linux
             <<: *job-linux-xl
 

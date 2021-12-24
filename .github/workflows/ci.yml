@@ -168,6 +168,9 @@ jobs:
           - name: armhf-gnu
             os: ubuntu-latest-xl
             env: {}
+          - name: dist-aarch64-freebsd
+            os: ubuntu-latest-xl
+            env: {}
           - name: dist-aarch64-linux
             os: ubuntu-latest-xl
             env: {}
