@@ -22,6 +22,7 @@ name: CI
       - try
       - try-perf
       - master
+      - aarch64-freebsd
   pull_request:
     branches:
       - "**"
